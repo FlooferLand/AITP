@@ -34,3 +34,5 @@ The actual program is a bit more complex but that's the gist of it.
 
 ### The future of this project
 If a few people decide to use or contribute to this project i may add in more features in the future such as RGB colors, animation, storage optimizations, and image manipulation.
+
+#### Report any issues in the <a href="https://github.com/flarfmatter/AITP/issues">Issues<a/> tab
