@@ -3,8 +3,8 @@ Customizable Python program that converts images into C++ arrays.
 
 ### How to use (Default settings):
 1. Put your image(s) into the `input` directory
-2. Run the script and every image in the `input` directory will be converted to a C/C++ header file `.h`
-3. Move the header files into your Arduino project and `#include` the images you need.
+2. Run `src/main.py` and every image in the `input` directory will be converted to a C/C++ header file `.h`
+3. Move the header files into your Arduino project, `#include` the images you need, and loop trough the pixels in your image.
 
 ### Examples:
 Struct used (defined in the Arduino script)
