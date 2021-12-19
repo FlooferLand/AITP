@@ -8,7 +8,7 @@ Customizable Python program that converts images into C++ arrays.
 
 ### Examples:
 Struct used (defined in the Arduino script)
-```arduino
+```ino
 struct Pixel {
   uint8_t m_x, m_y, m_color;
   uint8_t x()     const { return pgm_read_byte(&m_x);     }
@@ -16,7 +16,7 @@ struct Pixel {
   uint8_t color() const { return pgm_read_byte(&m_color); }
 };
 ```
-```arduino
+```ino
 // AITP output:
 const PROGMEM Pixel checkerPattern[] = { {0,0,255}, {1,0,0}, {0,1,0}, {1,1,255} };
 const PROGMEM uint8_t checkerPattern_length = 4;
